@@ -1,0 +1,29 @@
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Vector databases & local storage
+db/
+*.sqlite3
+
+# macOS system files
+.DS_Store
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
